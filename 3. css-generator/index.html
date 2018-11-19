@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="left-top-corner">
+    <p> Верхний левый угол
+      <input type="range" id="range-top-left" min="0" max="100" value="0" oninput="corner()">
+      <input type="text" id="text-top-left" value="0">
+    </p>
+  </div>
+  <div class="right-top-corner">
+    <p> Верхний правый угол
+      <input type="range" id="range-top-right" min="0" max="100" value="0" oninput="corner()">
+      <input type="text" id="text-top-right" value="0">
+    </p>
+  </div>
+  <div class="left-bottom-corner">
+    <p> Нижний левый угол
+      <input type="range" id="range-bottom-left" min="0" max="100" value="0" oninput="corner()">
+      <input type="text" id="text-bottom-left" value="0">
+    </p>
+  </div>
+  <div class="right-bottom-corner">
+    <p> Нижний правый угол
+      <input type="range" id="range-bottom-right" min="0" max="100" value="0" oninput="corner()">
+      <input type="text" id="text-bottom-right" value="0">
+    </p>
+  </div>
+  <div id="block"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

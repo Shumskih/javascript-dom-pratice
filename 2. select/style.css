@@ -1,0 +1,11 @@
+.range,
+.input,
+#test {
+  margin-top: 3em;
+}
+
+#test {
+  height: 5em;
+  width: 5em;
+  background: green;
+}
